@@ -4,8 +4,8 @@ const orderSchema = new mongoose.Schema({
   customerName: {
     type: String,
     required: true,
-    trim: true,
-  },
+    trim: true, 
+          },
 
   phone: {
     type: String,
