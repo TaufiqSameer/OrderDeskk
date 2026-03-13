@@ -4,7 +4,6 @@ const connectDB = require("./config/mongoose");
 require("dotenv").config();
 const cors = require("cors");
 require("./jobs/dailySummary"); 
-
 const app = express();
 
 app.use(cors());
